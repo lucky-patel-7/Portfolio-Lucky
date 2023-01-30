@@ -7,7 +7,7 @@ const ImageComponent = (props) => {
         src={props.languageIcon}
         alt=""
         width="100"
-        class="img-fluid rounded"
+        className="img-fluid rounded mt-4 mt-sm-0"
       />
     </>
   );

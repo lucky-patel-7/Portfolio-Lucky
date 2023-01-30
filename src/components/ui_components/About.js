@@ -20,13 +20,13 @@ const About = () => {
           </Col>
           <Col
             sm={6}
-            className="mt-5"
+            className="mt-2 mt-sm-5"
             data-aos="flip-left"
             data-aos-duration="1000"
             data-aos-mirror="true"
           >
             <p className="name_title h1 ">{aboutDetails.name}</p>
-            <p className="subtitle mt-3">{aboutDetails.position}</p>
+            <p className="subtitle mt-0 mt-sm-3">{aboutDetails.position}</p>
             <p className="h4 ">{aboutDetails.about}</p>
           </Col>
         </Row>

@@ -12,13 +12,13 @@ const Experience = () => {
   return (
     <div id="experience">
       <Container className="h-100">
-        <Row className="mt-5 pt-5 mb-5 pb-5">
-          <p
-            className=" subtitle mt-5 text-center"
-            data-aos="flip-up"
-            data-aos-duration="1000"
-            data-aos-mirror="true"
-          >
+        <Row
+          className="mt-2 pt-2 mb-2 pb-2 mt-sm-5 pt-sm-5 mb-sm-5 pb-sm-5"
+          data-aos="flip-up"
+          data-aos-duration="1000"
+          data-aos-mirror="true"
+        >
+          <p className=" subtitle mt-5 text-center">
             {experienceDetails.title}
           </p>
           <Col
@@ -28,8 +28,12 @@ const Experience = () => {
             data-aos-duration="1000"
             data-aos-mirror="true"
           >
-            <p className="subtitle h1 mt-5">{experienceDetails.subtitle}</p>
-            <p className="h5 ">{experienceDetails.sub_subtitle}</p>
+            <Col className="">
+              <p className="ml-sm-5 subtitle h1 mt-2 mt-sm-5">
+                {experienceDetails.subtitle}
+              </p>
+              <p className="h5 ">{experienceDetails.sub_subtitle}</p>
+            </Col>
           </Col>
           <Col
             sm={6}

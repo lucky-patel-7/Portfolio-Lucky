@@ -48,7 +48,7 @@ code {
   background-color: #3d2323;
   transform-origin: bottom left;
   transition: transform 0.4s ease-out;
-  color: rgb(0, 0, 0);
+  color: rgb(172, 4, 4);
 }
 
 .nav_items:hover:after {
@@ -96,4 +96,36 @@ font-family: "Comforter", cursive; */
     flex-direction: column;
     align-items: center;
   }
+}
+
+#light {
+  background: #ff7e5f;
+  background: -webkit-linear-gradient(to right, #feb47b, #ff7e5f);
+  overflow-x: hidden;
+  background: linear-gradient(to right, #feb47b, #ff7e5f);
+}
+
+#dark {
+  background-color: #2c4561;
+  color: white;
+}
+
+#dark .subtitle {
+  color: rgb(255, 147, 46);
+}
+
+#dark .name_title {
+  color: rgb(88, 255, 241);
+}
+
+#dark .navbar_brand {
+  color: orange;
+}
+
+#dark .nav_items {
+  color: rgb(248, 197, 102);
+}
+
+#dark .nav_items:hover {
+  color: orange;
 }
