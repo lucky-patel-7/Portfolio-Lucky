@@ -87,3 +87,13 @@ font-family: "Comforter", cursive; */
 .introduction_details {
   text-align: justify;
 }
+
+@media (max-width: 767px) {
+  .subtitle {
+    font-size: 1.9rem;
+  }
+  .d-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+}

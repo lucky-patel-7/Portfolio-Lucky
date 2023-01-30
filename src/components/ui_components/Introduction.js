@@ -26,7 +26,7 @@ const Introduction = () => {
             data-aos-duration="1000"
             data-aos-mirror="true"
           >
-            <img src={introDetails.image} />
+            <img className="img-fluid" src={introDetails.image} />
           </Col>
         </Row>
       </Container>
