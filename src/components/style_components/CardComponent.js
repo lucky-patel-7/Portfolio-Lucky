@@ -11,8 +11,10 @@ const CardComponent = (props) => {
             width="100"
             class="img-fluid rounded-circle mb-3 img-thumbnail shadow-lg"
           />
-          <h5 class="mb-0 text-dark">{props.companyName}</h5>
-          <span class="small text-white text-uppercase ">{props.position}</span>
+          <h5 class="mb-0 text-dark exp-company">{props.companyName}</h5>
+          <span class="small text-white text-uppercase exp-position ">
+            {props.position}
+          </span>
         </div>
       </div>
     </>

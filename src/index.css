@@ -106,7 +106,7 @@ font-family: "Comforter", cursive; */
 }
 
 #dark {
-  background-color: #2c4561;
+  background-image: url("https://thumbs.gfycat.com/EnchantingCriminalHairstreakbutterfly-size_restricted.gif");
   color: white;
 }
 
@@ -128,4 +128,12 @@ font-family: "Comforter", cursive; */
 
 #dark .nav_items:hover {
   color: orange;
+}
+
+#dark .exp-position {
+  color: white;
+}
+
+#dark .exp-company {
+  color: white;
 }
