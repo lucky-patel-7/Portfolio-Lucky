@@ -1,13 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Comforter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Birthstone+Bounce&display=swap");
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #ff7e5f;
+  background: -webkit-linear-gradient(to right, #feb47b, #ff7e5f);
+  overflow-x: hidden;
+  background: linear-gradient(to right, #feb47b, #ff7e5f);
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+/* Navbar css */
+
+.nav_items {
+  margin-left: 20px;
+  text-decoration: none;
+  font-family: "Varela Round", sans-serif;
+  color: rgb(138, 132, 132);
+  font-size: 25px;
+  display: inline-block;
+  position: relative;
+}
+
+.nav_items:hover {
+  color: rgb(0, 0, 0);
+}
+
+.nav_items:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 2px;
+  left: 0;
+  justify-content: center;
+  background-color: #3d2323;
+  transform-origin: bottom left;
+  transition: transform 0.4s ease-out;
+  color: rgb(0, 0, 0);
+}
+
+.nav_items:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.navbar_brand {
+  font-family: "Comforter", cursive;
+  font-size: 25px !important;
+}
+/* Navbar css ends here! */
+
+/* font-family: "Birthstone Bounce", cursive;
+font-family: "Varela Round", sans-serif;
+font-family: "Comforter", cursive; */
+
+/* typography */
+.name_title {
+  font-family: "Birthstone Bounce", cursive;
+  font-weight: 900;
+  transform: rotate(-13deg);
+  font-size: 40px;
+  color: rgb(6, 87, 163);
+  /* margin-top: 20px; */
+}
+
+.subtitle {
+  font-size: 80px;
+  font-family: "Varela Round", sans-serif;
+  color: rgb(109, 84, 84);
+  padding-top: 20px;
+  line-height: 60px;
+}
+
+.introduction_details {
+  text-align: justify;
 }
