@@ -14,7 +14,7 @@ const About = () => {
             data-aos-duration="1000"
             data-aos-mirror="true"
           >
-            <img src={aboutDetails.image} />
+            <img className="img-fluid" src={aboutDetails.image} />
           </Col>
           <Col
             className="mt-5"
