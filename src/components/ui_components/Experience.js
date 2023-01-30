@@ -13,7 +13,7 @@ const Experience = () => {
     <div id="experience">
       <Container className="h-100">
         <Row
-          className="mt-2 pt-2 mb-2 pb-2 mt-sm-5 pt-sm-5 mb-sm-5 pb-sm-5"
+          className="mt-2  pt-2 mb-2 pb-2 mt-sm-5 pt-sm-5 mb-sm-5 pb-sm-5"
           data-aos="flip-up"
           data-aos-duration="1000"
           data-aos-mirror="true"
@@ -29,7 +29,7 @@ const Experience = () => {
             data-aos-mirror="true"
           >
             <Col className="">
-              <p className="ml-sm-5 subtitle h1 mt-2 mt-sm-5">
+              <p className="lh-base subtitle h1 mt-2 mt-sm-5 ">
                 {experienceDetails.subtitle}
               </p>
               <p className="h5 ">{experienceDetails.sub_subtitle}</p>
