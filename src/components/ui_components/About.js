@@ -7,16 +7,19 @@ import { aboutDetails } from "../dynamic_data/Details";
 const About = () => {
   return (
     <div id="about" className="h-100">
-      <Container className="h-100">
+      <Container>
         <Row>
           <Col
+            xs={12}
+            sm={6}
             data-aos="flip-down"
             data-aos-duration="1000"
             data-aos-mirror="true"
           >
-            <img className="img-fluid" src={aboutDetails.image} />
+            <img className="img-fluid" src={aboutDetails.image} alt="about" />
           </Col>
           <Col
+            sm={6}
             className="mt-5"
             data-aos="flip-left"
             data-aos-duration="1000"

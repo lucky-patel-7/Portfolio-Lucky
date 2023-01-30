@@ -48,7 +48,7 @@ const Contact = () => {
           </Col>
         </Row>
         <Row className="pt-5 mt-5 pb-5 mb-5">
-          <Col xs={12} className="d-flex justify-content-center">
+          <Col xs={9} className="d-flex justify-content-center">
             {socialLinks.map((link) => (
               <Links key={link.id} href={link.url}>
                 <link.icon sx={{ fontSize: "50px", color: "black" }} />

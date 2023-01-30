@@ -2,10 +2,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-
 import CardComponent from "./../style_components/CardComponent";
-import silvertouchlogo from "../../images/silvertouchlogo.png";
-import welteclogo from "../../images/welteclogo.png";
 import {
   experienceDetails,
   experienceCardComponentDetails,
@@ -25,6 +22,8 @@ const Experience = () => {
             {experienceDetails.title}
           </p>
           <Col
+            sm={6}
+            xs={12}
             data-aos="zoom-in-left"
             data-aos-duration="1000"
             data-aos-mirror="true"
@@ -33,6 +32,8 @@ const Experience = () => {
             <p className="h5 ">{experienceDetails.sub_subtitle}</p>
           </Col>
           <Col
+            sm={6}
+            xs={12}
             className="d-flex mt-5"
             data-aos="zoom-in-right"
             data-aos-duration="1000"

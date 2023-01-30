@@ -11,6 +11,8 @@ const Introduction = () => {
       <Container className="h-100">
         <Row className="mt-5 pt-5 mb-5 pb-5">
           <Col
+            sm={6}
+            xs={12}
             data-aos="zoom-in-left"
             data-aos-duration="1000"
             data-aos-mirror="true"
@@ -21,6 +23,8 @@ const Introduction = () => {
             </p>
           </Col>
           <Col
+            sm={6}
+            xs={12}
             className="mt-5"
             data-aos="zoom-in-right"
             data-aos-duration="1000"

@@ -90,7 +90,7 @@ font-family: "Comforter", cursive; */
 
 @media (max-width: 767px) {
   .subtitle {
-    font-size: 1.9rem;
+    font-size: 3rem;
   }
   .d-flex {
     flex-direction: column;
