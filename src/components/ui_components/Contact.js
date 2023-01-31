@@ -4,6 +4,7 @@ import Col from "react-bootstrap/Col";
 import { Container } from "react-bootstrap";
 import { Links } from "../style_components/StyledComponents";
 import { socialLinks, contactData } from "./../dynamic_data/Details";
+import ContactUsForm from "./../subcomponents/ContactUsForm";
 
 const Contact = () => {
   return (
@@ -36,6 +37,7 @@ const Contact = () => {
             ))}
           </Col>
         </Row>
+        <ContactUsForm />
       </Container>
     </div>
   );
