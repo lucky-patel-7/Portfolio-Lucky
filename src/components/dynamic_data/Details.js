@@ -145,3 +145,32 @@ export const experienceCardComponentDetails = [
     position: "MERN Stack Development",
   },
 ];
+
+//navabar data starts here
+
+export const nav_brand = {
+  name: "Lucky.react()",
+};
+
+export const navBarData = [
+  {
+    id: 1,
+    name: "About",
+    to: "#about",
+  },
+  {
+    id: 2,
+    name: "Experience",
+    to: "#experience",
+  },
+  {
+    id: 3,
+    name: "Skills",
+    to: "#skills",
+  },
+  {
+    id: 4,
+    name: "Contact",
+    to: "#contact",
+  },
+];

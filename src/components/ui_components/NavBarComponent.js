@@ -5,6 +5,7 @@ import { HashLink } from "react-router-hash-link";
 import Brightness4Icon from "@mui/icons-material/Brightness4";
 import Brightness7Icon from "@mui/icons-material/Brightness7";
 import { ThemeContext } from "./../../App";
+import { navBarData, nav_brand } from "./../dynamic_data/Details";
 
 function NavBarComponent() {
   const { theme, setTheme } = useContext(ThemeContext);
@@ -15,7 +16,9 @@ function NavBarComponent() {
 
   return (
     <Navbar expand="lg">
-      <Navbar.Brand className="mx-3 navbar_brand">Lucky.React()</Navbar.Brand>
+      <Navbar.Brand className="mx-3 navbar_brand">
+        {nav_brand.name}
+      </Navbar.Brand>
       <Navbar.Brand className="mx-3">
         <button className="btn bg-transparent" onClick={toggleTheme}>
           {theme === "dark" ? (
@@ -28,18 +31,11 @@ function NavBarComponent() {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav " className="justify-content-end">
         <Nav className="mx-3">
-          <HashLink className="nav_items" to="#about" smooth>
-            <Nav.Item>About</Nav.Item>
-          </HashLink>
-          <HashLink className="nav_items" to="#experience" smooth>
-            <Nav.Item>Experience</Nav.Item>
-          </HashLink>
-          <HashLink className="nav_items" to="#skills" smooth>
-            <Nav.Item>Skills</Nav.Item>
-          </HashLink>
-          <HashLink className="nav_items" to="#contact" smooth>
-            <Nav.Item>Contact</Nav.Item>
-          </HashLink>
+          {navBarData.map((data) => (
+            <HashLink className="nav_items" to={data.to} key={data.id} smooth>
+              <Nav.Item>{data.name}</Nav.Item>
+            </HashLink>
+          ))}
         </Nav>
       </Navbar.Collapse>
     </Navbar>
