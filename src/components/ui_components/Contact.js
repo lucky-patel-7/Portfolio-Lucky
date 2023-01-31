@@ -56,7 +56,7 @@ const Contact = () => {
               <Links key={link.id} href={link.url}>
                 <link.icon
                   sx={{ fontSize: "60px", color: "black" }}
-                  className="mt-4 sm-mt-2 "
+                  className="mt-4 sm-mt-2 contact-icons"
                 />
               </Links>
             ))}
