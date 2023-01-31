@@ -16,7 +16,7 @@ const Testimonials = () => {
             style={{ width: "18rem" }}
             key={index}
             className="ml-3 testimonial-card"
-            data-aos="flip-right"
+            data-aos="flip-down"
             data-aos-duration="1000"
             data-aos-mirror="true"
           >
