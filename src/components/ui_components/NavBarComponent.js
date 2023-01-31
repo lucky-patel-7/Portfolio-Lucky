@@ -23,11 +23,16 @@ function NavBarComponent() {
       <Navbar.Collapse id="basic-navbar-nav " className="justify-content-end ">
         <Nav className="mx-3">
           {navBarData.map((data) => (
-            <HashLink className="nav_items" to={data.to} key={data.id} smooth>
+            <HashLink
+              className="nav_items mt-1"
+              to={data.to}
+              key={data.id}
+              smooth
+            >
               <Nav.Item>{data.name}</Nav.Item>
             </HashLink>
           ))}
-          <button className="btn bg-transparent" onClick={toggleTheme}>
+          <button className="btn bg-transparent " onClick={toggleTheme}>
             {theme === "dark" ? (
               <Brightness7Icon sx={{ color: "white" }} />
             ) : (
