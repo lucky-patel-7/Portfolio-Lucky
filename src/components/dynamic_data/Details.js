@@ -28,6 +28,7 @@ import welteclogo from "../../images/welteclogo.png";
 //testimonials data starts here
 import namo from "../../images/namo.jfif";
 import donald from "../../images/donald.jpg";
+import taliban from "../../images/taliban.jfif";
 
 export const contactData = {
   title: "We can get in touch here!",
@@ -215,10 +216,10 @@ export const testimonialsData = [
     image: donald,
   },
   {
-    name: "Narendra Modi",
+    name: "Taliban Sarkar",
     review:
-      "He is a great guy! get your work done by him. I am really impressed mitron!!!",
+      "Mashallah!!! what a work!!! will suggest you to get your work done by him.",
     rating: 4,
-    image: namo,
+    image: taliban,
   },
 ];
