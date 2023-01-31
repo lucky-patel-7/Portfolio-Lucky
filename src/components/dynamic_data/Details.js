@@ -25,6 +25,10 @@ import avatar from "../../images/avatar.png";
 import silvertouchlogo from "../../images/silvertouchlogo.png";
 import welteclogo from "../../images/welteclogo.png";
 
+//testimonials data starts here
+import namo from "../../images/namo.jfif";
+import donald from "../../images/donald.jpg";
+
 export const contactData = {
   title: "We can get in touch here!",
 };
@@ -160,7 +164,7 @@ export const navBarData = [
   {
     id: 1,
     name: "About",
-    to: "#about",
+    to: "#intro",
   },
   {
     id: 2,
@@ -176,5 +180,45 @@ export const navBarData = [
     id: 4,
     name: "Contact",
     to: "#contact",
+  },
+];
+
+export const skillsProgressBarData = [
+  { name: "HTML", percent: 85 },
+  { name: "CSS", percent: 70 },
+  { name: "JavaScript", percent: 70 },
+  { name: "React", percent: 65 },
+  { name: "Bootstrap", percent: 65 },
+  { name: "Tailwind", percent: 60 },
+];
+
+export const testimonialsData = [
+  {
+    name: "Narendra Modi",
+    review:
+      "He is a great guy! get your work done by him. I am really impressed mitron!!!",
+    rating: 4,
+    image: namo,
+  },
+  {
+    name: "Donald Trump",
+    review:
+      "Fabulous work fellas, my white house's website is managed by him. keep up the good work!!!",
+    rating: 5,
+    image: donald,
+  },
+  {
+    name: "Donald Trump",
+    review:
+      "Fabulous work fellas, my white house's website is managed by him. keep up the good work!!!",
+    rating: 5,
+    image: donald,
+  },
+  {
+    name: "Narendra Modi",
+    review:
+      "He is a great guy! get your work done by him. I am really impressed mitron!!!",
+    rating: 4,
+    image: namo,
   },
 ];

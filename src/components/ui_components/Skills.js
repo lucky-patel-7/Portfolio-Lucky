@@ -1,10 +1,11 @@
 import React from "react";
 import ImageComponent from "./../style_components/ImageComponent";
-import { Col } from "react-bootstrap";
-import { Row } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
-import { skillsData } from "../dynamic_data/Details";
-const Skills = () => {
+import { skillsData, skillsProgressBarData } from "../dynamic_data/Details";
+import SkillProgressBar from "./../subcomponents/SkillsProgressBar";
+
+const Skills = (props) => {
   return (
     <div id="skills">
       <Container className="h-100">
@@ -33,6 +34,18 @@ const Skills = () => {
               ))}
             </div>
           </Col>
+        </Row>
+        <Row>
+          {skillsProgressBarData.map(({ name, percent }) => (
+            <SkillProgressBar
+              key={name}
+              skill={name}
+              percent={percent}
+              data-aos="flip-down"
+              data-aos-duration="1000"
+              data-aos-mirror="true"
+            />
+          ))}
         </Row>
       </Container>
     </div>

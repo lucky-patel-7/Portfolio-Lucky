@@ -32,7 +32,10 @@ function NavBarComponent() {
               <Nav.Item>{data.name}</Nav.Item>
             </HashLink>
           ))}
-          <button className="btn bg-transparent " onClick={toggleTheme}>
+          <button
+            className="btn bg-transparent navbar-fixed-top navbar-right"
+            onClick={toggleTheme}
+          >
             {theme === "dark" ? (
               <Brightness7Icon sx={{ color: "white" }} />
             ) : (

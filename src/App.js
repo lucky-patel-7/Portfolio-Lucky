@@ -7,6 +7,7 @@ import Skills from "./components/ui_components/Skills";
 import ScrollButton from "./components/style_components/ScrollButton";
 import { useState } from "react";
 import { createContext } from "react";
+import Testimonials from "./components/ui_components/Testimonials";
 
 export const ThemeContext = createContext(null);
 
@@ -22,6 +23,7 @@ function App() {
         <Experience />
         <Skills />
         <Contact />
+        <Testimonials />
         <ScrollButton />
       </div>
     </ThemeContext.Provider>
