@@ -19,15 +19,6 @@ function NavBarComponent() {
       <Navbar.Brand className="mx-3 navbar_brand">
         {nav_brand.name}
       </Navbar.Brand>
-      <Navbar.Brand className="mx-3">
-        <button className="btn bg-transparent" onClick={toggleTheme}>
-          {theme === "dark" ? (
-            <Brightness7Icon sx={{ color: "white" }} />
-          ) : (
-            <Brightness4Icon />
-          )}
-        </button>
-      </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav btn-collapsed" />
       <Navbar.Collapse id="basic-navbar-nav " className="justify-content-end ">
         <Nav className="mx-3">
@@ -36,6 +27,13 @@ function NavBarComponent() {
               <Nav.Item>{data.name}</Nav.Item>
             </HashLink>
           ))}
+          <button className="btn bg-transparent" onClick={toggleTheme}>
+            {theme === "dark" ? (
+              <Brightness7Icon sx={{ color: "white" }} />
+            ) : (
+              <Brightness4Icon />
+            )}
+          </button>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
