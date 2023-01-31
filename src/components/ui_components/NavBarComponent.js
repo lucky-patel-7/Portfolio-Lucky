@@ -28,8 +28,8 @@ function NavBarComponent() {
           )}
         </button>
       </Navbar.Brand>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav " className="justify-content-end">
+      <Navbar.Toggle aria-controls="basic-navbar-nav btn-collapsed" />
+      <Navbar.Collapse id="basic-navbar-nav " className="justify-content-end ">
         <Nav className="mx-3">
           {navBarData.map((data) => (
             <HashLink className="nav_items" to={data.to} key={data.id} smooth>

@@ -25,6 +25,10 @@ import avatar from "../../images/avatar.png";
 import silvertouchlogo from "../../images/silvertouchlogo.png";
 import welteclogo from "../../images/welteclogo.png";
 
+export const contactData = {
+  title: "We can get in touch here!",
+};
+
 export const socialLinks = [
   {
     id: 1,
