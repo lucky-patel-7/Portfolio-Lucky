@@ -22,7 +22,7 @@ const Skills = (props) => {
             xs={12}
             className="mt-1 mb-1 mt-sm-1 mb-sm-1 pt-1 pb-1  pt-sm-1 mb-sm-5 pb-sm-5 text-center"
           >
-            <div className="d-flex flex-wrap justify-content-center ">
+            <div className="d-flex flex-wrap justify-content-center">
               {skillsData.map((skill) => (
                 <ImageComponent key={skill.id} languageIcon={skill.image} />
               ))}
