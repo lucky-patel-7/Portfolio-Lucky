@@ -7,8 +7,8 @@ import { testimonialsData } from "../dynamic_data/Details";
 const Testimonials = () => {
   return (
     <>
-      <div>
-        <Container className="h-100">
+      <div className="h-100">
+        <Container>
           <Col>
             <p
               className="subtitle mt-5"

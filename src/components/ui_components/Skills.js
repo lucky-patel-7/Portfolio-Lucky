@@ -7,8 +7,8 @@ import SkillProgressBar from "./../subcomponents/SkillsProgressBar";
 
 const Skills = (props) => {
   return (
-    <div id="skills">
-      <Container className="h-100">
+    <div id="skills" className="h-100">
+      <Container>
         <Row>
           <Col
             xs={12}

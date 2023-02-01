@@ -8,7 +8,7 @@ import ContactUsForm from "./../subcomponents/ContactUsForm";
 
 const Contact = () => {
   return (
-    <div id="contact">
+    <div id="contact" className="h-100">
       <Container>
         <Row className="text-center">
           <Col
