@@ -32,6 +32,9 @@ const Contact = () => {
                 <link.icon
                   sx={{ fontSize: "60px", color: "black" }}
                   className="mt-4 sm-mt-2 contact-icons"
+                  data-aos="flip-up"
+                  data-aos-duration="1000"
+                  data-aos-mirror="true"
                 />
               </Links>
             ))}

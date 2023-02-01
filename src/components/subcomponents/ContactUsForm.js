@@ -56,7 +56,7 @@ const ContactUsForm = () => {
   };
   return (
     <div
-      className="container mt-5 pb-5"
+      className="container mt-5 pb-5 w-75"
       data-aos="flip-down"
       data-aos-duration="1000"
       data-aos-mirror="true"
