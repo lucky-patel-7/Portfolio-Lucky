@@ -24,16 +24,13 @@ const Skills = (props) => {
           <Col
             xs={12}
             className="mt-1 mb-1 mt-sm-1 mb-sm-1 pt-1 pb-1  pt-sm-1 mb-sm-5 pb-sm-5 text-center"
+            data-aos="flip-up"
+            data-aos-duration="1000"
+            data-aos-mirror="true"
           >
             <div className="d-flex flex-wrap justify-content-center ">
               {skillsData.map((skill) => (
-                <ImageComponent
-                  key={skill.id}
-                  languageIcon={skill.image}
-                  data-aos="zoom-in-up"
-                  data-aos-duration="1000"
-                  data-aos-mirror="true"
-                />
+                <ImageComponent key={skill.id} languageIcon={skill.image} />
               ))}
             </div>
           </Col>
