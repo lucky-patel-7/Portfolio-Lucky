@@ -116,8 +116,9 @@ font-family: "Comforter", cursive; */
 #light {
   background: var(--light-bg);
   background: -webkit-linear-gradient(to right, #feb47b, var(--light-bg));
-  overflow-x: hidden;
+
   background: var(--light-bg-gradient);
+  overflow-x: hidden;
 }
 
 #dark {
