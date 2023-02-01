@@ -23,7 +23,7 @@ const Introduction = () => {
           <Col
             sm={6}
             xs={12}
-            data-aos="zoom-in-left"
+            data-aos="flip-down"
             data-aos-duration="1000"
             data-aos-mirror="true"
           >
@@ -48,9 +48,9 @@ const Introduction = () => {
             sm={6}
             xs={12}
             className="mt-5"
-            data-aos="zoom-in-right"
-            data-aos-duration="1000"
-            data-aos-mirror="true"
+            data-aos="flip-down"
+              data-aos-duration="1000"
+              data-aos-mirror="true"
           >
             <img className="img-fluid" src={introDetails.image} />
           </Col>

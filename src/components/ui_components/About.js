@@ -13,7 +13,7 @@ const About = () => {
             xs={12}
             sm={6}
             data-aos="flip-down"
-            data-aos-duration="1000"
+            data-aos-duration="500"
             data-aos-mirror="true"
           >
             <img className="img-fluid" src={aboutDetails.image} alt="about" />
@@ -21,8 +21,8 @@ const About = () => {
           <Col
             sm={6}
             className="mt-2 mt-sm-5"
-            data-aos="flip-left"
-            data-aos-duration="1000"
+            data-aos="flip-down"
+            data-aos-duration="500"
             data-aos-mirror="true"
           >
             <p className="name_title h1 ">{aboutDetails.name}</p>
