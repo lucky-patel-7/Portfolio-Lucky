@@ -14,9 +14,9 @@ const Experience = () => {
       <Container>
         <Row
           className="mt-2  pt-2 mb-2 pb-2 mt-sm-5 pt-sm-5 mb-sm-5 pb-sm-5"
-          // data-aos="flip-up"
-          // data-aos-duration="1000"
-          // data-aos-mirror="true"
+          data-aos="flip-down"
+          data-aos-duration="1000"
+          data-aos-mirror="true"
         >
           <p className=" subtitle mt-5 text-center">
             {experienceDetails.title}
@@ -24,9 +24,9 @@ const Experience = () => {
           <Col
             sm={6}
             xs={12}
-            // data-aos="zoom-in-left"
-            // data-aos-duration="1000"
-            // data-aos-mirror="true"
+            data-aos="flip-down"
+            data-aos-duration="1000"
+            data-aos-mirror="true"
           >
             <Col className="">
               <p className="lh-base subtitle h1 mt-2 mt-sm-5 ">
@@ -39,9 +39,9 @@ const Experience = () => {
             sm={6}
             xs={12}
             className="d-flex mt-5"
-            // data-aos="zoom-in-right"
-            // data-aos-duration="1000"
-            // data-aos-mirror="true"
+            data-aos="flip-down"
+            data-aos-duration="1000"
+            data-aos-mirror="true"
           >
             {experienceCardComponentDetails.map((data) => (
               <CardComponent

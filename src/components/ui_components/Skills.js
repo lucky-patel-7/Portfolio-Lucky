@@ -13,9 +13,9 @@ const Skills = (props) => {
           <Col
             xs={12}
             className="mt-1 mb-1  pt-1 pb-1 mt-sm-4 mb-sm-4 pt-sm-4 mb-sm-4 pb-sm-4 text-center"
-            // data-aos="flip-down"
-            // data-aos-duration="1000"
-            // data-aos-mirror="true"
+            data-aos="flip-down"
+            data-aos-duration="1000"
+            data-aos-mirror="true"
           >
             <p className="subtitle mt-2">What I Know!</p>
           </Col>
@@ -24,9 +24,9 @@ const Skills = (props) => {
           <Col
             xs={12}
             className="mt-1 mb-1 mt-sm-1 mb-sm-1 pt-1 pb-1  pt-sm-1 mb-sm-5 pb-sm-5 text-center"
-            // data-aos="flip-up"
-            // data-aos-duration="1000"
-            // data-aos-mirror="true"
+            data-aos="flip-down"
+            data-aos-duration="1000"
+            data-aos-mirror="true"
           >
             <div className="d-flex flex-wrap justify-content-center ">
               {skillsData.map((skill) => (
@@ -41,9 +41,9 @@ const Skills = (props) => {
               key={name}
               skill={name}
               percent={percent}
-              // data-aos="flip-down"
-              // data-aos-duration="1000"
-              // data-aos-mirror="true"
+              data-aos="flip-down"
+              data-aos-duration="1000"
+              data-aos-mirror="true"
             />
           ))}
         </Row>

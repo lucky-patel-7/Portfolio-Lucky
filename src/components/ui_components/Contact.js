@@ -14,9 +14,9 @@ const Contact = () => {
           <Col
             xs={12}
             className="mt-sm-5 mt-5 pt-sm-5 pt-1 pb-0 pb-sm-5"
-            // data-aos="flip-down"
-            // data-aos-duration="1000"
-            // data-aos-mirror="true"
+            data-aos="flip-down"
+            data-aos-duration="1000"
+            data-aos-mirror="true"
           >
             <p className="subtitle mt-5">{contactData.title}</p>
           </Col>
@@ -32,9 +32,9 @@ const Contact = () => {
                 <link.icon
                   sx={{ fontSize: "60px", color: "black" }}
                   className="mt-4 sm-mt-2 contact-icons"
-                  // data-aos="flip-up"
-                  // data-aos-duration="1000"
-                  // data-aos-mirror="true"
+                  data-aos="flip-down"
+                  data-aos-duration="1000"
+                  data-aos-mirror="true"
                 />
               </Links>
             ))}
