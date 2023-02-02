@@ -3,6 +3,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { aboutDetails } from "../dynamic_data/Details";
+import TypeWriterComponent from "./../style_components/TypeWriterComponent";
 
 const About = () => {
   return (
@@ -25,9 +26,11 @@ const About = () => {
             data-aos-duration="500"
             data-aos-mirror="true"
           >
-            <p className="name_title h1 ">{aboutDetails.name}</p>
-            <p className="subtitle mt-0 mt-sm-3">{aboutDetails.position}</p>
-            <p className="h4 ">{aboutDetails.about}</p>
+            <TypeWriterComponent />
+
+            <p className="h5 city">{aboutDetails.city}</p>
+
+            <p className="h4 pt-4">{aboutDetails.about}</p>
           </Col>
         </Row>
       </Container>

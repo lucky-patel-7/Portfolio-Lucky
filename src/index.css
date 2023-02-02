@@ -26,7 +26,7 @@ code {
   margin-left: 20px;
   text-decoration: none;
   font-family: "Varela Round", sans-serif;
-  color: rgb(138, 132, 132);
+  color: rgb(99, 99, 99);
   font-size: 25px;
   display: inline-block;
   position: relative;
@@ -69,11 +69,12 @@ font-family: "Comforter", cursive; */
 /* typography */
 .name_title {
   font-family: "Birthstone Bounce", cursive;
-  font-weight: 900;
-  transform: rotate(-13deg);
-  font-size: 40px;
-  color: rgb(6, 87, 163);
-  /* margin-top: 20px; */
+  font-weight: 500;
+  /* transform: rotate(-13deg) !important; */
+  font-size: 70px;
+  color: rgb(4, 82, 155);
+  margin-left: 70px;
+  /* margin-top: 200px !important; */
 }
 
 .subtitle {
@@ -84,9 +85,14 @@ font-family: "Comforter", cursive; */
   line-height: 60px;
   text-align: center;
 }
+.city {
+  text-align: center;
+  color: rgb(109, 84, 84);
+}
 
 .introduction_details {
   text-align: justify;
+  color: red;
 }
 
 @media (max-width: 767px) {
@@ -244,3 +250,5 @@ font-family: "Comforter", cursive; */
   margin: 10px;
   padding: 10px;
 }
+
+/* typewriter */

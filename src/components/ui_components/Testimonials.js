@@ -8,16 +8,13 @@ const Testimonials = () => {
   return (
     <>
       <div className="h-100">
-        <Container>
+        <Container
+          data-aos="flip-down"
+          data-aos-duration="1000"
+          data-aos-mirror="true"
+        >
           <Col>
-            <p
-              className="subtitle mt-5"
-              data-aos="flip-down"
-              data-aos-duration="1000"
-              data-aos-mirror="true"
-            >
-              Testimonials
-            </p>
+            <p className="subtitle mt-5 pt-5 pb-5">Testimonials</p>
           </Col>
           <Col className="d-flex">
             {testimonialsData.map((testimonial, index) => (
