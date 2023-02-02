@@ -124,7 +124,10 @@ export const introDetails = {
 
 export const aboutDetails = {
   name: "Hi, I am Lucky!",
-  position: "Developer &  Designer",
+  pos1: "I am Developer!",
+  pos2: "& Designer!",
+  pos3: "& Photographer!",
+  city: "Based in Ahmedabad,India",
   about:
     " designing stunning user interfaces is my passion, and bringing them to life with code is my superpower.",
   image: avatar,
