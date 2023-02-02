@@ -24,7 +24,6 @@ function App() {
         <Skills />
         <Testimonials />
         <Contact />
-
         <ScrollButton />
       </div>
     </ThemeContext.Provider>
