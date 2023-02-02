@@ -32,7 +32,9 @@ const Experience = () => {
               <p className="lh-base subtitle h1 mt-2 mt-sm-5 ">
                 {experienceDetails.subtitle}
               </p>
-              <p className="h5 ">{experienceDetails.sub_subtitle}</p>
+              <p className="h5 sub_subtitle">
+                {experienceDetails.sub_subtitle}
+              </p>
             </Col>
           </Col>
           <Col
