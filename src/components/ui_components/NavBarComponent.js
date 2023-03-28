@@ -36,8 +36,8 @@ function NavBarComponent() {
             className="btn bg-transparent navbar-fixed-top navbar-right"
             onClick={toggleTheme}
           >
-            {theme === "dark" ? (
-              <Brightness7Icon sx={{ color: "white" }} />
+            {theme === "light" ? (
+              <Brightness7Icon sx={{ color: "black" }} />
             ) : (
               <Brightness4Icon />
             )}
